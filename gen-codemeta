@@ -23,7 +23,7 @@ puts "*    First, some basic details     *"
 puts "************************************"
 puts ""
 
-# Loop through the desired captures and print out for clarity
+# Loop through the desired captures and print(out) for clarity
 capture_params.each do |param|
   puts param[:message]
   print "> "

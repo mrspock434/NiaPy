@@ -15,4 +15,4 @@ for i in range(5):
     task = StoppingTask(D=10, nFES=10000, optType=OptimizationType.MINIMIZATION, benchmark=Sphere())
     algo = AnarchicSocietyOptimization(NP=40, Combination=Elitism)
     best = algo.run(task=task)
-    print best
+    print(best)

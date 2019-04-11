@@ -20,7 +20,7 @@ for i in range(1):
 	best = algo.run(task)
 	evals, x_f = algo.return_conv()
 	
-	print evals # print evals
+	print(evals) # print evals
 	
-	print x_f # print values 
+	print(x_f) # print values
 

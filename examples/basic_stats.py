@@ -31,4 +31,4 @@ for i in range(NUM_RUNS):
 
 
 stat = BasicStatistics(stats)
-print stat.generate_standard_report()  # show basic stats
+print(stat).generate_standard_report()  # show basic stats

@@ -15,5 +15,5 @@ for i in range(5):
     task = StoppingTask(D=10, nFES=10000, optType=OptimizationType.MINIMIZATION, benchmark=Sphere())
     algo = ArtificialBeeColonyAlgorithm(NP=40, Limit=2)
     best = algo.run(task=task)
-    print best
+    print(best)
     

@@ -15,5 +15,5 @@ for i in range(5):
     task = StoppingTask(D=10, nFES=1000, optType=OptimizationType.MINIMIZATION, benchmark=Sphere())
     algo = CoralReefsOptimization(NP=40)
     best = algo.run(task=task)
-    print best
+    print(best)
  
